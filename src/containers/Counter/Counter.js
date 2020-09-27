@@ -28,6 +28,7 @@ class Counter extends Component {
     render () {
         return (
             <div>
+                {console.log('hellp')}
                 <CounterOutput value={this.state.counter} />
                 <CounterControl label="Increment" clicked={() => this.counterChangedHandler( 'inc' )} />
                 <CounterControl label="Decrement" clicked={() => this.counterChangedHandler( 'dec' )}  />
